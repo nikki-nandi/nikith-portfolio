@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Nikith - Full-Stack Web Developer" />
+  <meta name="keywords" content="Nikith, Full-Stack, Web Developer, Streamlit, Python, ML, Portfolio" />
+  <meta name="author" content="Nikith" />
+  <title>Nikith | Full-Stack Developer</title>
+
+  <link rel="stylesheet" href="nikki.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">Nikith</div>
+      <nav class="navbar" id="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-toggle" id="nav-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content" data-aos="fade-up">
+      <h1>Hi, I'm <span class="green">Nikith</span></h1>
+      <h2 class="typed-text"></h2>
+      <p>Full-Stack Web Developer,AI ML Developer</p>
+      <div class="hero-buttons">
+        <a href="/Nikith_Resume.pdf" class="btn" download>Download Resume</a>
+        <a href="#contact" class="btn secondary">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-bg"></div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container" data-aos="fade-up">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <img src="nikithpic.jpg" alt="Nikith Profile Picture" class="profile-img" />
+        <div class="bio">
+          <p>I'm Nikith, a passionate web developer experienced in building scalable web systems, real-time dashboards, and AI-integrated platforms. With projects spanning energy monitoring, ride-sharing, and college chatbots, I combine tech with impact.
+            </p>
+            
+            
+           <p1>Experience:Intern in the EFICAA ENSMART SOLUTIONS AI AND ML Developer</p1> 
+          <ul class="personal-info">
+            <li><strong>Email:</strong> nikithnandi08@email.com</li>
+            <li><strong>LinkedIn:</strong> linkedin.com/in/Nandi Nikith</li>
+            <li><strong>Location:</strong> India</li>
+            <li><strong>Availability:</strong> Open to Work</li>
+          </ul>
+          <a href="/Nikith_Resume.pdf" class="btn" download>Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="container" data-aos="fade-up">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">React.js</div>
+        <div class="skill-card">Python</div>
+        <div class="skill-card">Flask</div>
+        <div class="skill-card">Django</div>
+        <div class="skill-card">FastAPI</div>
+        <div class="skill-card">MongoDB</div>
+        <div class="skill-card">Firebase</div>
+        <div class="skill-card">MySQL</div>
+        <div class="skill-card">Git</div>
+        <div class="skill-card">GitHub</div>
+        <div class="skill-card">Docker</div>
+        <div class="skill-card">Streamlit</div>
+        <div class="skill-card">ML</div>
+        <div class="skill-card">Computer Vision</div>
+        <div class="skill-card">AI APIs</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="container" data-aos="fade-up">
+      <h2 class="section-title">Projects</h2>
+      <div class="project-cards">
+        <div class="project-card">
+          <img src="smart meter.png" alt="Smart Metering" />
+          <h3>Smart Metering Digital Twin</h3>
+          <p>A real-time dashboard to monitor and simulate energy usage with ML predictions and anomaly detection. Built using Streamlit, Python, and energy APIs.</p>
+          <div class="project-links">
+            <a href="#" class="btn small">View Demo</a>
+            <a href="#" class="btn small secondary">View Code</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="rapido.png" alt="Rapido Clone" />
+          <h3>Rapido Clone</h3>
+          <p>A ride-sharing platform with real-time driver tracking, booking system, secure payments, and a token-based reward engine.</p>
+          <div class="project-links">
+            <a href="#" class="btn small">View Demo</a>
+            <a href="#" class="btn small secondary">View Code</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="chatbot.jpeg" alt="College Website chat bot" />
+          <h3>College Website with AI Chatbot</h3>
+          <p>An academic site with integrated chatbot to handle FAQ and admission queries using NLP and speech-to-text models.</p>
+          <div class="project-links">
+            <a href="#" class="btn small">View Demo</a>
+            <a href="#" class="btn small secondary">View Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container" data-aos="fade-up">
+      <h2 class="section-title">Contact</h2>
+      <form action="https://formspree.io/f/yourID" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div class="social-links">
+        <a href="mailto:nikithnandi08@email.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/nikith" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/ Nandi Nikith" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <p class="location"><i class="fas fa-map-marker-alt"></i> India</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Nikith. All rights reserved.</p>
+    <a href="#home" class="scroll-top" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></a>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
